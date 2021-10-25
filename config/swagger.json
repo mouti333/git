@@ -1,0 +1,484 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "App Node JS ",
+        "description": "Yet Another Node.js Blogg Application API",
+        "license": {
+            "name": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+        }
+    },
+    "host": "localhost:7000",
+    "basePath": "/",
+    "tags": [
+        {
+            "name": "users",
+            "description": "API for users in the system"
+        },
+        {
+            "name": "student",
+            "description": "API for students in the system"}
+    ],
+    "schemes": [
+        "http"
+    ],
+    "consumes": [
+        "multipart/form-data","application/json"
+    ],
+    "produces": [
+        "multipart/form-data","application/json"
+    ],
+    "paths": {
+        "/users/addUser": {
+            "post": {
+                "tags": [
+                    "users"
+                ],
+                "description": "Create new user in system",
+                "parameters": [
+                    {
+                        "name": "email",
+                        "in": "formData",
+                        "required": true,
+                        "description": "User that we want to create",
+                        "type": "string"
+                    },
+                    {
+                        "name": "mdp",
+                        "in": "formData",
+                        "required": true,
+                        "description": "User that we want to create",
+                        "type": "string"
+                    },
+                    {
+                        "name": "image",
+                        "in": "formData",
+                        "required": true,
+                        "description": "image of User ",
+                        "type": "array",
+                        "items":{
+                            "name":"image",
+                            "type":"file",
+                            "in":"formData",
+                            "required": true,
+                            "description": "User that we want to find"
+                        }
+                    }
+                ],
+                "produces": [
+                    "multipart/form-data"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "New user is created",
+                        "schema": {
+                            "$ref": "#/definitions/users"
+                        }
+                    }
+                }
+            }
+        },
+        "/student/addstudent": {
+            "post": {
+                "tags": [
+                    "student"
+                ],
+                "description": "Create new Student in system",
+                "parameters": [
+                    {
+                        "name": "nom",
+                        "in": "formData",
+                        "required": true,
+                        "description": "student name that we want to create",
+                        "type": "string"
+                    },
+                    {
+                        "name": "prenom",
+                        "in": "formData",
+                        "required": true,
+                        "description": "student's lastname that we want to create",
+                        "type": "string"
+                    },
+                    
+                    {
+                        "name": "datedenaissance",
+                        "in": "formData",
+                        "required": true,
+                        "description": "student birth date that we want to create",
+                        "type": "string"
+                    },
+                    {
+                        "name": "niveauEtude",
+                        "in": "formData",
+                        "required": true,
+                        "description": "student that we want to create",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Feedback",
+                        "in": "formData",
+                        "required": true,
+                        "description": "feedback that we want to create",
+                        "type": "string"
+                    },
+                    {
+                        "name": "image",
+                        "in": "formData",
+                        "required": true,
+                        "description": "image of User ",
+                        "type": "array",
+                        "items":{
+                            "name":"image",
+                            "type":"file",
+                            "in":"formData",
+                            "required": true,
+                            "description": "image that we want to create"
+                        }
+                    },
+                    {
+                        "name": "email",
+                        "in": "formData",
+                        "required": true,
+                        "description": "email that we want to create",
+                        "type": "string"
+                    },
+                    {
+                        "name": "mdp",
+                        "in": "formData",
+                        "required": true,
+                        "description": "mdp name that we want to create",
+                        "type": "string"
+                    }
+                ],
+                "produces": [
+                    "multipart/form-data"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "New Student is created",
+                        "schema": {
+                            "$ref": "#/definitions/Student"
+                        }
+                    }
+                }
+            }
+        }, 
+        "/users/getAll": {
+            "get": {
+                "tags": [
+                    "users"
+                ],
+                "description": "get new user in system",
+                "parameters": [
+                    {
+                        "name": "user",
+                        "description": "Users list",
+                        "schema": {
+                            "$ref": "#/definitions/users"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "users list created",
+                        "schema": {
+                            "$ref": "#/definitions/users"
+                        }
+                    }
+                }
+            }
+        },
+        "/users/getOne/{id}": {
+            "parameters": [
+                {
+                    "name": "id",
+                    "in": "path",
+                    "required": true,
+                    "description": "ID of user that we want to find",
+                    "type": "string"
+                }
+            ],
+            "get": {
+                "tags": [
+                    "users"
+                ],
+                "summary": "Get user with given ID",
+                "responses": {
+                    "200": {
+                        "description": "User is found",
+                        "schema": {
+                            "$ref": "#/definitions/users"
+                        }
+                    }
+                }
+        }},
+        "/users/deleteOne/{id}": {
+            "delete":{
+            "summary": "Delete user with given ID",
+            "parameters": [
+                {
+                    "name": "id",
+                    "in": "path",
+                    "required": true,
+                    "description": "ID of user that we want to delete",
+                    "type": "string"
+                }
+            ],
+            "tags": [
+                "users"
+            ],
+            "responses": {
+                "200": {
+                    "description": "User is deleted",
+                    "schema": {
+                        "$ref": "#/definitions/users"
+                    }
+                }
+            }
+        }},
+        "/users/authUser": {
+            "post": {
+                "tags": [
+                    "users"
+                ],
+                "description": "auth user in system",
+                "parameters": [
+                    {
+                        "name": "user",
+                        "in": "body",
+                        "required": true,
+                        "description": "User that we want to auth",
+                        "type": "string"
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "New user is created",
+                        "schema": {
+                            "$ref": "#/definitions/users"
+                        }
+                    }
+                }
+            }
+        },
+        "/users/sendemail": {
+            "post": {
+                "tags": [
+                    "users"
+                ],
+                "description": "Create new user in system",
+                "parameters": [
+                    {
+                        "name": "mail information",
+                        "in": "body",
+                        "required": true,
+                        "description": "email's sender",
+                        "schema": {
+                            "$ref": "#/definitions/sendemail"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "New email has been sent",
+                        "schema": {
+                            "$ref": "#/definitions/sendemail"
+                        }
+                    }
+                }
+            }
+        },
+        "/users/updateOne/{id}": {
+            "parameters": [
+                {
+                    "name": "id",
+                    "in": "path",
+                    "required": true,
+                    "description": "ID of review that we want to find",
+                    "type": "string"
+                }
+            ],
+        "put": {
+            "summary": "Update user with give ID",
+            "tags": [
+                "users"
+            ],
+            "parameters": [
+                {
+                    "name": "email",
+                    "in": "formData",
+                    "required": true,
+                    "description": "User that we want to create",
+                    "type": "string"
+                },
+                {
+                    "name": "mdp",
+                    "in": "formData",
+                    "required": true,
+                    "description": "User that we want to create",
+                    "type": "string"
+                },
+                {
+                    "name": "image",
+                    "in": "formData",
+                    "required": true,
+                    "description": "image of User ",
+                    "type": "array",
+                    "items":{
+                        "name":"image",
+                        "type":"file",
+                        "in":"formData",
+                        "required": true,
+                        "description": "User that we want to find"
+                    }}
+            ],
+            "responses": {
+                "200": {
+                    "description": "User is updated",
+                    "schema": {
+                        "$ref": "#/definitions/users"
+                    }
+                }
+            }
+        }
+    }
+    },
+    "definitions": {
+        "users": {
+            "required": [
+                "email",
+                "mdp",
+                "photo"
+            ],
+            "properties": {
+                "email": {
+                    "type": "string",
+                    "uniqueItems": true
+                }
+                ,
+                "mdp":{
+                    "type":"string",
+                    "uniqueItems": true
+                },
+                "photo":{
+                    "type":"string",
+                    "uniqueItems":false
+                }
+            }
+        },
+        "sendMail": {
+            "required": [
+                "from",
+                "to",
+                "text"
+            ],
+            "properties": {
+                "from": {
+                    "type": "string",
+                    "uniqueItems": true
+                }
+                ,
+                "to":{
+                    "type":"string",
+                    "uniqueItems": true
+                },
+                "text":{
+                    "type":"string",
+                    "uniqueItems":false
+                }
+            }
+        },
+        "Users":{
+        "type": "array",
+        "$ref": "#/definitions/users"
+    }
+},
+    "Students": {
+        "required": [
+            "nom",
+            "prenom",
+            "datedenaissance",
+            "niveauEtude",
+            "Feedback",
+            "photo",
+            "email",
+            "mdp"
+        ],
+        "properties": {
+            "nom": {
+                "type": "string",
+                "uniqueItems": true
+            },
+          
+            "prenom":{
+                "type":"string",
+                "uniqueItems": true
+            },
+            "datedenaissance":{
+                "type":"string",
+                "uniqueItems":false
+            },
+            "niveauEtude":{
+                "type":"string",
+                "uniqueItems":false
+            },
+            "Feedback":{
+                "type":"string",
+                "uniqueItems":false
+            },
+            "photo":{
+                "type":"string",
+                "uniqueItems":false
+            },
+            "email":{
+                "type":"string",
+                "uniqueItems":false
+            },
+            "mdp":{
+                "type":"string",
+                "uniqueItems":false
+            },
+            "student":{
+                "type": "array",
+                "$ref": "#/definitions/student"
+            }
+        }
+    },
+    "sendemail": {
+        "required": [
+            "from",
+            "to",
+            "text"
+        ],
+        "properties": {
+            "from": {
+                "type": "string",
+                "uniqueItems": true
+            }
+            ,
+            "to":{
+                "type":"string",
+                "uniqueItems": true
+            },
+            "text":{
+                "type":"string",
+                "uniqueItems":false
+            }
+        }
+    },
+    "Users":{
+    "type": "array",
+    "$ref": "#/definitions/users"
+}
+
+}

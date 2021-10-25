@@ -1,0 +1,78 @@
+<head>
+
+        <title>html - Copying Code from Inspect Element in Google Chrome - Stack Overflow</title>
+        <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196">
+        <link rel="apple-touch-icon" href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a">
+        <link rel="image_src" href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a"> 
+        <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="/opensearch.xml">
+        <link rel="canonical" href="https://stackoverflow.com/questions/12576247/copying-code-from-inspect-element-in-google-chrome">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://stackoverflow.com/questions/12576247/copying-code-from-inspect-element-in-google-chrome">
+        <meta property="og:site_name" content="Stack Overflow">
+        <meta property="og:image" itemprop="image primaryImageOfPage" content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:domain" content="stackoverflow.com">
+        <meta name="twitter:title" property="og:title" itemprop="name" content="Copying Code from Inspect Element in Google Chrome">
+        <meta name="twitter:description" property="og:description" itemprop="description" content="I'm currently developing a website in HTML and I want to copy some of the code from other websites. However when I go into the inspect element feature and try to copy just part of the code it ends up ">
+
+        <script src="https://rules.quantcount.com/rules-p-c1rF4kxgLUzNc.js" async=""></script><script async="" src="https://secure.quantserve.com/quant.js"></script><script async="" src="https://sb.scorecardresearch.com/beacon.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdn.sstatic.net/Js/stub.en.js?v=6dc87c15cee6"></script>
+    
+        <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Shared/stacks.css?v=0b11cbaf5b08">
+        <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=090b419f5220">
+
+    
+            <link rel="alternate" type="application/atom+xml" title="Feed for question 'Copying Code from Inspect Element in Google Chrome'" href="/feeds/question/12576247">
+            <meta name="twitter:app:country" content="US">
+            <meta name="twitter:app:name:iphone" content="Stack Exchange iOS">
+            <meta name="twitter:app:id:iphone" content="871299723">
+            <meta name="twitter:app:url:iphone" content="se-zaphod://stackoverflow.com/questions/12576247/copying-code-from-inspect-element-in-google-chrome">
+            <meta name="twitter:app:name:ipad" content="Stack Exchange iOS">
+            <meta name="twitter:app:id:ipad" content="871299723">
+            <meta name="twitter:app:url:ipad" content="se-zaphod://stackoverflow.com/questions/12576247/copying-code-from-inspect-element-in-google-chrome">
+            <meta name="twitter:app:name:googleplay" content="Stack Exchange Android">
+            <meta name="twitter:app:url:googleplay" content="https://stackoverflow.com/questions/12576247/copying-code-from-inspect-element-in-google-chrome">
+            <meta name="twitter:app:id:googleplay" content="com.stackexchange.marvin">
+        <script>
+            StackExchange.ready(function () {
+
+                    StackExchange.using("snippets", function () {
+                        StackExchange.snippets.initSnippetRenderer();
+                    });
+                    
+                StackExchange.using("postValidation", function () {
+                    StackExchange.postValidation.initOnBlurAndSubmit($('#post-form'), 2, 'answer');
+                });
+
+
+                StackExchange.question.init({showAnswerHelp:true,totalCommentCount:3,shownCommentCount:3,enableTables:true,questionId:12576247});
+
+                styleCode();
+
+                    StackExchange.realtime.subscribeToQuestion('1', '12576247');
+                    StackExchange.using("gps", function () { StackExchange.gps.trackOutboundClicks('#content', '.js-post-body'); });
+
+
+
+            });
+        </script>
+
+        
+        
+        
+        
+        
+        
+        
+
+
+    <script>
+        StackExchange.init({"locale":"en","serverTime":1613997971,"routeName":"Questions/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","styleCodeWithHighlightjs":true,"negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"702862d177a4d89ed1694495be0fb9f8601ecd7f35851e76a27dc4ea6aef5b0b","tid":"15017a3c-6ddb-329c-c1e3-f7340f24bdb5","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"5acef7872715"}, {"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"slack":{"sidebarAdDismissCookie":"slack-sidebar-ad","sidebarAdDismissCookieExpirationDays":60.0},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}});
+        StackExchange.using.setCacheBreakers({"js/adops.en.js":"22a9bd59b1e9","js/ask.en.js":"e287ffdc77d4","js/begin-edit-event.en.js":"9ef531ced3d6","js/events.en.js":"e8d80c06726a","js/explore-qlist.en.js":"222b04ca33bc","js/full-anon.en.js":"ae71bd762e6a","js/full.en.js":"25d62eb7e96e","js/help.en.js":"b49b1b0c233e","js/highlightjs-loader.en.js":"333370662c86","js/inline-tag-editing.en.js":"64af4cae422c","js/keyboard-shortcuts.en.js":"c20b8381ccdb","js/markdown-it-loader.en.js":"ecbf27350e73","js/mobile.en.js":"dfdada718b75","js/moderator.en.js":"2c68f96b9e62","js/postCollections-transpiled.en.js":"be92541efb5b","js/post-validation.en.js":"a10705e4da8b","js/prettify-full.en.js":"e6e64b61b489","js/question-editor.en.js":"","js/review.en.js":"0385d873b42a","js/review-v2-transpiled.en.js":"f06f600fa64f","js/revisions.en.js":"c7f5f26e0200","js/stacks-editor.en.js":"cdaa76e45fda","js/tageditor.en.js":"8b49dad16a3b","js/tageditornew.en.js":"381e5bb04a28","js/tagsuggestions.en.js":"4e6582be0533","js/wmd.en.js":"1c9cfe212c16","js/snippet-javascript-codemirror.en.js":"b33fc1775a0b"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    <noscript id="noscript-css"><style>body,.top-bar{margin-top:1.9em}</style></noscript>
+    <script async="" src="https://cdn.sstatic.net/Js/full-anon.en.js?v=ae71bd762e6a"></script><link rel="stylesheet" href="https://cdn.sstatic.net/clc/styles/clc.min.css?v=7bdb968bec81" type="text/css"><script async="" src="https://cdn.sstatic.net/Js/post-validation.en.js?v=a10705e4da8b"></script><meta http-equiv="origin-trial" content="A9ZgbRtm4pU3oZiuNzOsKcC8ppFSZdcjP2qYcdQrFKVzkmiWH1kdYY1Mi9x7G8+PS8HV9Ha9Cz0gaMdKsiVZIgMAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A3HucHUo1oW9s+9kIKz8mLkbcmdaj5lxt3eiIMp1Nh49dkkBlg1Fhg4Fd/r0vL69mRRA36YutI9P/lJUfL8csQoAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><script src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021021101.js" async=""></script><link rel="preload" href="https://adservice.google.tn/adsid/integrator.js?domain=stackoverflow.com" as="script"><script type="text/javascript" src="https://adservice.google.tn/adsid/integrator.js?domain=stackoverflow.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=stackoverflow.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=stackoverflow.com"></script><link rel="prefetch" href="https://e1b9a8b149df6196de83c1f1a46e3843.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html"><link rel="prefetch" href="https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html"></head>
