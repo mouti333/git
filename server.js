@@ -42,7 +42,7 @@ res.send('hello world')
 })
 
 app.listen(7000,function(){
-    console.log('running with 7000')
+    console.log('running with 6000')
 
 
 })
