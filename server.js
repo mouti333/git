@@ -45,5 +45,8 @@ app.listen(7000,function(){
     console.log('running with 6000')
 
 
-})
+})  
+
+
+
 app.use('/api-docs',swaggerUi.serve,swaggerUi.setup(swaggerDocument))
